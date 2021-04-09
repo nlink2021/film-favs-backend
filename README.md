@@ -10,6 +10,10 @@ just movies that they've seen before.
 
 # Wireframes
 
+![alt text](./wireframes/apiwire1.JPG)
+![alt text](./wireframes/apiwire2.JPG)
+![alt text](./wireframes/apiwire3.JPG)
+
 3 images:
 
 https://imgur.com/a/I3hh9Fv
@@ -42,9 +46,4 @@ https://imgur.com/a/I3hh9Fv
 
 Users will be able to compile a virtual library of films that will not only recommend films in the same genre or director that they may also like, but will let them know the medium in which they can watch it (streaming service, website, etc.)
 
-# Game Rules:
-- The game starts as a jumbled grid of different pipes; some are elbow pipes and some are straight pipes. 
-- Water is being fed in through one side of the screen, and the user needs to help it reach it's goal at another part of the screen. - The player must click on different cells around the grid where these pipes are placed to turn them into position to help the liquid   reach it's destination. 
-- Be careful though, there's a timer until this water can't be held back anymore! If you don't have all your pipes in place, it'll leak out and it's game over! 
-- A keen eye will be able to tell which pieces are part of the solution and which ones are extraneous and don't need to be touched.   
 # film-favs-backend
