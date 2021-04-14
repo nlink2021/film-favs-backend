@@ -1,3 +1,4 @@
+require("dotenv").config()
 const express = require('express')
 const app = express()
 
@@ -5,6 +6,7 @@ const rowdy = require ('rowdy-logger')
 const routesReport = rowdy.begin(app)
 
 const userRoutes = require('./routes/userRoutes')
+const movieRoutes = require('./routes/movieRoutes')
 
 app.use(express.json())
 app.use(require('cors')())
@@ -62,4 +64,4 @@ app.listen(PORT, () => {
 })
 
 app.use('/user', userRoutes)
-// app.use('/movie', movieRoutes)
+app.use('/movie', movieRoutes)
